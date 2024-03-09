@@ -6,3 +6,20 @@ body {
   padding: 0;
   margin: 0;
 }
+
+h4 {
+  font-weight: 100 !important;
+}
+
+summary::marker {
+  color: #2a7ecd !important;
+}
+
+.notion-blue {
+  color: #2a7ecd !important;
+}
+
+a {
+  color: #006ed4 !important;
+  border-color: #006ed4 !important;
+}
