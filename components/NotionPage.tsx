@@ -22,7 +22,7 @@ export const NotionPage = ({
   return (
     <>
       <Head>
-        <title>Наталья Манаткина, продуктовый дизайнер</title>
+        <title>Наталья, UX/UI дизайнер</title>
         <meta
           name="viewport"
           content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover"
@@ -30,7 +30,7 @@ export const NotionPage = ({
         <meta charSet="utf-8" />
         <meta
           name="description"
-          content="Резюме и портфолио Натальи, продуктовый дизайнер"
+          content="Резюме и портфолио Натальи, UX/UI дизайнер"
         />
         <link
           rel="shortcut icon"
@@ -65,7 +65,7 @@ export const NotionPage = ({
         <meta name="twitter:site" content="@NotionHQ" />
         <meta
           name="twitter:description"
-          content="Резюме и портфолио Натальи, продуктовый дизайнер"
+          content="Резюме и портфолио Натальи, UX/UI дизайнер"
         />
         <meta name="twitter:url" content="https://www.nataly.space/" />
         <meta
@@ -75,13 +75,10 @@ export const NotionPage = ({
         <meta property="og:site_name" content="Notion" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.nataly.space/" />
-        <meta
-          property="og:title"
-          content="Наталья Манаткина, продуктовый дизайнер"
-        />
+        <meta property="og:title" content="Наталья, UX/UI дизайнер" />
         <meta
           property="og:description"
-          content="Резюме и портфолио Натальи, продуктовый дизайнер"
+          content="Резюме и портфолио Натальи, UX/UI дизайнер"
         />
         <meta
           property="og:image"
