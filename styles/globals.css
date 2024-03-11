@@ -104,6 +104,12 @@ a:active {
   border-color: rgb(100, 71, 58) !important;
 }
 
+.notion-orange a,
+.notion-orange a:visited {
+  color: rgb(217, 115, 13) !important;
+  border-color: rgb(217, 115, 13) !important;
+}
+
 .notion-gray {
   /* color: rgb(100 100 100); */
 }
