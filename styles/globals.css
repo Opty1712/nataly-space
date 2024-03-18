@@ -13,9 +13,12 @@ body * {
 
 h1,
 h2,
-h3,
 h4 {
   font-weight: 200 !important;
+  font-family: "Play", sans-serif;
+}
+
+h3 {
   font-family: "Play", sans-serif;
 }
 
@@ -26,11 +29,13 @@ h2 * {
 }
 
 h2 * {
-  color: #898989;
+  color: #5573d5;
+  font-size: 2rem;
 }
 
 h1 {
-  color: #898989;
+  color: #4f4f4f;
+  font-size: 3rem !important;
 }
 
 h3 span {
@@ -111,7 +116,7 @@ a:active {
 }
 
 .notion-gray {
-  /* color: rgb(100 100 100); */
+  color: rgb(100 100 100);
 }
 
 .notion-callout .notion-list-numbered li::marker {
@@ -125,14 +130,22 @@ summary {
 
 h3 {
   display: block !important;
-  font-size: 16px !important;
-  color: #5573d5;
+}
+
+h3 .notion-h-title {
+  font-size: 18px !important;
+  color: rgb(82, 158, 114);
+  font-weight: 550;
 }
 
 h4 .notion-gray {
   font-size: 16px;
 }
 
+ol > li > span > b,
+ol > li > b > span {
+  color: rgb(82, 82, 82);
+}
 /*
 body * {
   font-family: "Roboto", sans-serif;
