@@ -1,7 +1,7 @@
 import Head from "next/head";
 
 import { ExtendedRecordMap } from "notion-types";
-import { getPageTitle } from "notion-utils";
+import { useEffect } from "react";
 import { NotionRenderer } from "react-notion-x";
 
 export const NotionPage = ({
@@ -15,9 +15,17 @@ export const NotionPage = ({
     return null;
   }
 
-  const title = getPageTitle(recordMap);
-
-  console.log(JSON.stringify(recordMap, null, 2));
+  useEffect(() => {
+    const pdf = document.createElement("a");
+    pdf.setAttribute("href", "https://nataly.space/Natalia_Manatkina_CV.pdf");
+    pdf.setAttribute("target", "_blank");
+    pdf.setAttribute(
+      "style",
+      "padding-left: 5px; transform: translateY(5px); display: inline-block"
+    );
+    pdf.innerHTML = '<img src="/pdf.svg" width="20" height="20" />';
+    document.querySelector(".title").append(pdf);
+  }, []);
 
   return (
     <>
