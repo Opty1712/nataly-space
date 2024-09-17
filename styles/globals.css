@@ -125,16 +125,33 @@ a:active {
 }
 
 summary {
-  margin-bottom: 1rem !important;
+  margin-bottom: 1rem;
+}
+
+summary h3.notion-h2 {
+  margin-top: -32px;
+  margin-bottom: 15px;
+  padding-bottom: 0;
+  text-transform: lowercase;
+  border-bottom: 1px solid #5573d5;
+  display: inline-block;
+}
+
+summary h3.notion-h2 .notion-h-title {
+  font-weight: 100;
+}
+
+.notion-h2 {
+  margin-top: 0;
 }
 
 h3 {
-  display: block !important;
+  display: block;
 }
 
 h3 .notion-h-title {
   font-size: 18px !important;
-  color: rgb(82, 158, 114);
+  color: #5573d5;
   font-weight: 550;
 }
 
