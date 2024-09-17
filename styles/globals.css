@@ -29,7 +29,6 @@ h2 * {
 }
 
 h2 * {
-  color: #5573d5;
   font-size: 2rem;
 }
 
@@ -43,9 +42,9 @@ h3 span {
   margin-bottom: 10px !important;
 }
 
-h2,
-h3 {
+h2.notion-h {
   text-transform: uppercase;
+  margin-bottom: 20px;
 }
 
 summary::marker {
@@ -116,7 +115,7 @@ a:active {
 }
 
 .notion-gray {
-  color: rgb(100 100 100);
+  color: rgb(120 120 120);
 }
 
 .notion-callout .notion-list-numbered li::marker {
@@ -163,6 +162,16 @@ ol > li > span > b,
 ol > li > b > span {
   color: rgb(82, 82, 82);
 }
+
+.notion-spacer + .notion-column {
+  padding-top: 4px;
+}
+
+h4.notion-h .notion-h-title {
+  display: inline-block;
+  margin: 15px 0;
+}
+
 /*
 body * {
   font-family: "Roboto", sans-serif;
