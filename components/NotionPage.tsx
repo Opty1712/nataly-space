@@ -1,8 +1,15 @@
+import dynamic from "next/dynamic";
 import Head from "next/head";
 
 import { ExtendedRecordMap } from "notion-types";
 import { useEffect } from "react";
 import { NotionRenderer } from "react-notion-x";
+
+const Collection = dynamic(() =>
+  import("react-notion-x/build/third-party/collection").then(
+    (m) => m.Collection
+  )
+);
 
 export const NotionPage = ({
   recordMap,
@@ -101,6 +108,7 @@ export const NotionPage = ({
         fullPage={true}
         darkMode={false}
         rootPageId={rootPageId}
+        components={{ Collection }}
       />
     </>
   );

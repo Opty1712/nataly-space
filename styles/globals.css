@@ -163,10 +163,6 @@ ol > li > b > span {
   color: rgb(82, 82, 82);
 }
 
-.notion-spacer + .notion-column {
-  padding-top: 4px;
-}
-
 h4.notion-h .notion-h-title {
   display: inline-block;
   margin: 15px 0;
@@ -174,6 +170,10 @@ h4.notion-h .notion-h-title {
 
 .notion-h-title > .notion-default + .notion-gray {
   font-weight: 100;
+}
+
+.notion-header .breadcrumb.active {
+  padding-bottom: 0px;
 }
 
 /*
