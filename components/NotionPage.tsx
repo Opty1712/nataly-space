@@ -80,24 +80,27 @@ export const NotionPage = ({
         <meta name="twitter:site" content="@NotionHQ" />
         <meta
           name="twitter:description"
-          content="Резюме и портфолио Натальи, UX/UI дизайнер"
+          content="Наталья, продуктовый дизайнер, UX/UI дизайнер"
         />
         <meta name="twitter:url" content="https://www.nataly.space/" />
         <meta
           name="twitter:image"
-          content="https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F42412933-6e94-4927-9a45-21d2aeef7357%2Fc20368ef-fef2-4825-be28-4038ae0752dc%2Fphoto_2024-03-09_11.00_1.png?table=block&id=072af006-b96c-456e-8c32-e72d22489735&cache=v2"
+          content="https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fd27ca273-fc9d-4b30-91dc-a545ee16d2da%2F09b9c62a-bcc4-4a1b-9c00-8c6adcbb4a32%2Fphoto_2024-03-10_16.07_1.png?table=block&id=20e314d3-415c-46a7-bd43-b2d641b87c6b&cache=v2"
         />
         <meta property="og:site_name" content="Notion" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.nataly.space/" />
-        <meta property="og:title" content="Наталья, UX/UI дизайнер" />
+        <meta
+          property="og:title"
+          content="Наталья, продуктовый дизайнер, UX/UI дизайнер"
+        />
         <meta
           property="og:description"
-          content="Резюме и портфолио Натальи, UX/UI дизайнер"
+          content="Наталья, продуктовый дизайнер, UX/UI дизайнер"
         />
         <meta
           property="og:image"
-          content="https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F42412933-6e94-4927-9a45-21d2aeef7357%2Fc20368ef-fef2-4825-be28-4038ae0752dc%2Fphoto_2024-03-09_11.00_1.png?table=block&id=072af006-b96c-456e-8c32-e72d22489735&cache=v2"
+          content="https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fd27ca273-fc9d-4b30-91dc-a545ee16d2da%2F09b9c62a-bcc4-4a1b-9c00-8c6adcbb4a32%2Fphoto_2024-03-10_16.07_1.png?table=block&id=20e314d3-415c-46a7-bd43-b2d641b87c6b&cache=v2"
         />
         <meta property="og:locale" content="ru_RU" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
