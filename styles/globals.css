@@ -32,10 +32,10 @@ h2 * {
   font-size: 2rem;
 }
 
-h1 {
+/* h1 {
   color: #4f4f4f;
   font-size: 3rem !important;
-}
+} */
 
 h3 span {
   margin-top: 20px !important;
@@ -47,9 +47,9 @@ h2.notion-h {
   margin-bottom: 20px;
 }
 
-summary::marker {
+/* summary::marker {
   color: #5573d5;
-}
+} */
 
 .notion-quote {
   font-size: 1em;
@@ -66,7 +66,7 @@ summary::marker {
 
 .notion-h-title b {
   font-weight: 100;
-  color: rgb(159 159 159);
+  /* color: rgb(159 159 159); */
 }
 
 a,
@@ -150,7 +150,7 @@ h3 {
 
 h3 .notion-h-title {
   font-size: 18px !important;
-  color: #5573d5;
+  /* color: #5573d5; */
   font-weight: 550;
 }
 
@@ -176,78 +176,10 @@ h4.notion-h .notion-h-title {
   padding-bottom: 0px;
 }
 
-/*
-body * {
-  font-family: "Roboto", sans-serif;
+.notion-row:first-child .notion-spacer {
+  width: calc(min(20px, 4vw));
 }
 
-h1,
-h2,
-h3 {
-  font-weight: 200 !important;
-  color: rgb(155, 139, 89) !important;
-  font-family: "Fira Sans", sans-serif;
+.notion-row:first-child .notion-column {
+  min-width: 178px;
 }
-
-h4 {
-  font-weight: 200 !important;
-  font-family: "Fira Sans", sans-serif;
-}
-
-summary::marker {
-  color: rgb(155, 139, 89) !important;
-}
-
-a,
-a:visited {
-  color: rgb(11, 110, 153) !important;
-  border-color: rgb(11, 110, 153) !important;
-}
-
-.notion-teal a,
-.notion-teal a:visited {
-  color: rgb(82, 158, 114) !important;
-  border-color: rgb(82, 158, 114) !important;
-}
-
-.notion-yellow a,
-.notion-yellow a:visited {
-  color: rgb(223, 171, 1) !important;
-  border-color: rgb(223, 171, 1) !important;
-}
-
-.notion-purple a,
-.notion-purple a:visited {
-  color: rgb(105, 64, 165) !important;
-  border-color: rgb(105, 64, 165) !important;
-}
-
-.notion-brown a,
-.notion-brown a:visited {
-  color: rgb(100, 71, 58) !important;
-  border-color: rgb(100, 71, 58) !important;
-}
-
-.notion-gray_background_co {
-  background-color: rgb(247, 236, 231);
-  border-radius: 10px;
-}
-
-.notion-callout-text .notion-gray {
-  color: rgb(155 139 89);
-}
-
-.notion-quote {
-  font-size: 1em;
-  color: 9b8b59;
-}
-
-.notion-h3 {
-  display: contents;
-}
-
-.notion-text > .notion-default > b {
-  color: #999;
-  color: rgb(155, 139, 89);
-}
-*/
