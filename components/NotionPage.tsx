@@ -40,7 +40,7 @@ export const NotionPage = ({
         <title>Наталья, UX/UI дизайнер</title>
         <meta
           name="viewport"
-          content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover"
+          content="width=device-width,height=device-height,initial-scale=1,viewport-fit=cover"
         />
         <meta charSet="utf-8" />
         <meta
