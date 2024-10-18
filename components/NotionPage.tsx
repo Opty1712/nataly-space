@@ -1,7 +1,5 @@
 import dynamic from "next/dynamic";
 import Head from "next/head";
-import Image from "next/image";
-import Link from "next/link";
 
 import { ExtendedRecordMap } from "notion-types";
 import { NotionRenderer } from "react-notion-x";
@@ -97,8 +95,7 @@ export const NotionPage = ({
         fullPage={true}
         darkMode={false}
         rootPageId={rootPageId}
-        previewImages={false}
-        components={{ Collection, Modal, nextImage: Image, nextLink: Link }}
+        components={{ Collection, Modal }}
       />
     </>
   );
